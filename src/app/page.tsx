@@ -31,6 +31,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ================= EMAIL CAPTURE ================= */}
+      <section className="bg-gray-900 py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold">
+            Join the Inner Circle
+          </h2>
+
+          <p className="mt-4 text-gray-400">
+            Get early access to AI tools, digital products, and private drops.
+            No noise. No spam.
+          </p>
+
+          <form className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <input
+              type="email"
+              required
+              placeholder="Enter your email"
+              className="flex-1 px-4 py-3 rounded-lg bg-black border border-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400"
+            />
+
+            <button
+              type="submit"
+              className="px-6 py-3 rounded-lg bg-green-500 text-black font-semibold hover:bg-green-400 transition"
+            >
+              Get Early Access
+            </button>
+          </form>
+
+          <p className="mt-4 text-sm text-gray-500">
+            Free forever. Unsubscribe anytime.
+          </p>
+        </div>
+      </section>
+
       {/* ================= PRODUCTS ================= */}
       <section
         id="products"
@@ -55,7 +89,7 @@ export default function Home() {
                 href="https://paypal.me/matriacy@proton.me/9"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 text-sm border border-gray-700 rounded hover:border-green-400 inline-block"
+                className="px-4 py-2 text-sm border border-gray-700 rounded hover:border-green-400"
               >
                 Buy
               </a>
@@ -75,7 +109,7 @@ export default function Home() {
                 href="https://paypal.me/matriacy@proton.me/12"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 text-sm border border-gray-700 rounded hover:border-green-400 inline-block"
+                className="px-4 py-2 text-sm border border-gray-700 rounded hover:border-green-400"
               >
                 Buy
               </a>
@@ -95,7 +129,7 @@ export default function Home() {
                 href="https://paypal.me/matriacy@proton.me/15"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 text-sm border border-gray-700 rounded hover:border-green-400 inline-block"
+                className="px-4 py-2 text-sm border border-gray-700 rounded hover:border-green-400"
               >
                 Buy
               </a>
